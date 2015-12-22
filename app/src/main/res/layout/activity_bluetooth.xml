@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.icsmarket.developer.mobilemarket.BluetoothActivity">
+
+    <TextView
+        android:text="@string/bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/bluetooth_adapter_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/btn_find_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Поиск устройств"/>
+
+    <ListView
+        android:id="@+id/dev_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+
+    </ListView>
+
+</LinearLayout>

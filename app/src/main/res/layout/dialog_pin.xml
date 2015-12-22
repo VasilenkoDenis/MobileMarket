@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/pin"
+    android:password="true"
+    android:inputType="numberPassword"
+    android:maxLength="4"
+    android:layout_height="wrap_content"
+    android:layout_width="250px"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/pin_text"
+    android:singleLine="true">
+</EditText>

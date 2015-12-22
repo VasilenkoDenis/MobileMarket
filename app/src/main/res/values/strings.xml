@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileMarket</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="hello_world">HelloWorld</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+
+</resources>
