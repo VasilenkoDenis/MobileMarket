@@ -1,6 +1,5 @@
 package com.icsmarket.developer.mobilemarket;
 
-
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
