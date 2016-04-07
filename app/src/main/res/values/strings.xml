@@ -6,5 +6,6 @@
     <string name="hello_world">HelloWorld</string>
     <string name="action_settings">Настройки</string>
     <string name="title_activity_bluetooth">BluetoothActivity</string>
-
+    <!-- Tab host имена заголовка и вкладок -->
+    <string name="text_tab_header">Свой заголовок</string>
 </resources>
